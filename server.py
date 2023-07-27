@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def swagger():
-    print('sending root')
+    print('sending root test api 2')
     return render_template('swaggerui.html')
 
 #LANclients API
